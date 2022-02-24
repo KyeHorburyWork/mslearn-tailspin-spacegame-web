@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: 'AUPERNB21561'
+  name: 'AUPERNB21561'
 
 variables:
   solution: '**/*.sln'
