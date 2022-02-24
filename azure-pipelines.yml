@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: 'LocalTraining'
+  vmImage: ' AUPERNB21561'
 
 variables:
   solution: '**/*.sln'
