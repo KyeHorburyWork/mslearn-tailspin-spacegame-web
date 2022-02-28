@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  name: 'LocalTraining'
+  vmImage: 'windows-latest'
 
 variables:
   solution: '**/*.sln'
